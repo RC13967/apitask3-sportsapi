@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(231, 225, 231);
+    
+}
+
+.sport-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sport-date {
+    color: rgb(28, 28, 214);
+}
+.sport-title {
+    color: rgb(220, 20, 203);
+    font-weight: bolder;
+    font-size: 18px;
+}
+.sport-side-url {
+    color: rgb(0, 92, 134);
+    font-size: 18px;
+    font-weight: bold;
+}
+.sport-scoreboard {
+    color: rgb(66, 141, 22);
+    font-size: 18px;
+}
+.sport-livestream {
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+}
+.sport-status {
+    color:rgb(128, 0, 202);
+    font-size: 18px;
+}
+.sport-video {
+    max-width: 750px;
+    margin: 0px auto;
+   
+}
+
+
+.page-div{
+    
+    position: fixed;
+    bottom: 20px;
+  display: flex;
+  
+}
+button{
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.clickedpagebutton{
+    background-color: burlywood;
+    padding: 8px;
+}
+.page-button {
+    padding: 8px;
+
+}
