@@ -83,7 +83,7 @@ function pagination (startidx){
       
         
       const data = await fetch(
-        `https://www.scorebat.com/video-api/v1/`,
+        "https://www.scorebat.com/video-api/v1/",
         {
           method: "GET"
         }
