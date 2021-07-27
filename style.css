@@ -1,10 +1,11 @@
 body {
     background-color: rgb(231, 225, 231);
+    display: grid;
     
 }
 
 .sport-container {
-    margin-bottom: 20px;
+    margin: 20px 0px;
     text-align: center;
 }
 .sport-date {
@@ -40,15 +41,14 @@ body {
 
 
 .page-div{
-    
-    position: fixed;
-    bottom: 20px;
   display: flex;
+  margin: auto;
   
 }
 button{
     background-color: blueviolet;
     border-radius: 5px;
+    padding: 8px;
 }
 .clickedpagebutton{
     background-color: burlywood;
