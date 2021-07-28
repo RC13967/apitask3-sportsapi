@@ -1,6 +1,6 @@
 body {
     background-color: rgb(231, 225, 231);
-    display: grid;
+    place-items: center;
     
 }
 
@@ -41,20 +41,25 @@ body {
 
 
 .page-div{
-  display: flex;
-  margin: auto;
-  
+  position: sticky;
+ top: 5px;
+ background-color: rgb(0, 96, 134);
+ padding: 10px;
 }
 button{
-    background-color: blueviolet;
+    background-color: rgb(158, 17, 17);
     border-radius: 5px;
-    padding: 8px;
+    padding: 10px;
+    color: rgb(181, 192, 182);
+    border-radius: 8px;
+    margin: 2px;
 }
 .clickedpagebutton{
-    background-color: burlywood;
-    padding: 8px;
+    background-color: rgb(148, 143, 137);
+    padding: 10px;
+    color: rgb(109, 0, 103);
 }
 .page-button {
-    padding: 8px;
+    padding: 10px;
 
 }
